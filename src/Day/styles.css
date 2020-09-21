@@ -1,0 +1,20 @@
+.day {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-bottom: 8px;
+  padding: 4px;
+  user-select: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  font-feature-settings: "tnum","lnum";
+}
+
+.day:hover {
+  border: 1px solid grey;
+}
+
+.day_disabled {
+  color: grey;
+  pointer-events: none;
+}
